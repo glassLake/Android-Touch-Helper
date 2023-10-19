@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 apply plugin: "com.github.ben-manes.versions"
-
+apply from: 'https://raw.githubusercontent.com/skyNet2017/AppUpdate/master/uploadToPyger.gradle'
 buildscript {
     repositories {
         google()
