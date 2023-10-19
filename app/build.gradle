@@ -13,12 +13,12 @@ def appVersion = getDate()
 
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.zfdang.touchhelper"
         minSdkVersion 26
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode gitVersion
         versionName appVersion
 
